@@ -1,3 +1,75 @@
 body {
-  font-family: sans-serif;
+  font-family: Lato;
+  font-size: 20px;
+  background-color: #a2d5c6;
+  padding: 20px;
+}
+h1 {
+  font-family: "American Typewriter";
+  color: white;
+}
+.header {
+  padding: 2px;
+  margin: 2px;
+  font-size: 50px;
+  text-align: center;
+  background: #077b8a;
+  border: solid #5c3c92;
+  margin-bottom: 5%;
+}
+.logo {
+  display: flex;
+}
+.upperNav {
+  text-align: center;
+  border: solid #5c3c92;
+  padding: 3px;
+  height: 40px;
+  font-size: 20px;
+  font-family: "American Typewriter";
+  margin: 2px;
+  margin-bottom: 5%;
+  word-spacing: 30px;
+}
+.leftNav {
+  text-align: left;
+  list-style-type: none;
+  width: 17%;
+  float: left;
+  padding: 0.5%;
+  border: solid #5c3c92;
+  text-decoration: underline;
+}
+.textcolor {
+  color: white;
+}
+.middlebox {
+  box-sizing: border-box;
+  float: right;
+  width: 40%;
+  height: 235px;
+  padding: 0.5%;
+  border: solid #5c3c92;
+  margin: 0.1%;
+  background-color: #077b8a;
+}
+.rightbox {
+  box-sizing: border-box;
+  float: right;
+  width: 38%;
+  height: 235px;
+  margin: 0 1%;
+  padding: 0.5%;
+  border: solid #5c3c92;
+  margin: 0.1%;
+  background-color: #077b8a;
+}
+.footer {
+  margin-top: 70%;
+  height: 50 px;
+  border: solid #5c3c92;
+  width: 100%;
+  text-align: center;
+  display: grid;
+  font-size: 18px;
 }
